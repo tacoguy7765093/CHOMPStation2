@@ -16,7 +16,8 @@
 	outdoors = 1
 
 /area/awaymission/darkrp/tunnels
-	icon_state = "green"
+	name = "Underground"
+	icon_state = "darkred"
 	always_unpowered = 1
 	outdoors = 0
 

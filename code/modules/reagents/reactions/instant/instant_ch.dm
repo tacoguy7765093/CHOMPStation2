@@ -64,6 +64,13 @@
 	result = "galactose"
 	required_reagents = list("milk" = 1, "sacid" = 1)
 	result_amount = 3
+
+/decl/chemical_reaction/instant/bathsalts
+	name = "Bath Salts"
+	id = "bathsalts"
+	result = "bathsalts"
+	required_reagents = list("sodiumchloride" = 1, "tea" = 1, "mercury" = 1, "enzyme" = 1, "carbon" = 1, "cleaner" = 1) //removed nutriment requiurment because conflicts with moonshine
+	result_amount = 3
 ///SAP RECIPES//////
 
 /decl/chemical_reaction/instant/myelamine_sap //This is the clotting agent used by clotting packs.

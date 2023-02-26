@@ -198,11 +198,12 @@
 /datum/reagent/nutriment/glucose/galactose
 	name = "Galactose"
 	id = "galactose"
-	description = "A clear sweet tasting fluid derived from lactose that is not as dense as glucose for IV application"
-	nutriment_factor = 5 //1/6 of glucose
+	description = "A clear sweet tasting fluid derived from lactose that is not as dense as glucose for IV application, restores blood less than glucose"
+	nutriment_factor = 5 //1/6 of glucose but heals at half their effectiveness for some reason
 	taste_description = "sweetness"
 	color = "#ffffff"
-	overdose = 45
+	scannable = 1
+	overdose = 45 //Prevents injecting yourself with too much and never bleed out again
 
 /datum/reagent/nutriment/glucose/galactose/overdose(var/mob/living/carbon/M, var/alien, var/removed)
 	..()
@@ -212,3 +213,48 @@
 		var/obj/item/organ/internal/brain/br = H.internal_organs_by_name[O_BRAIN] //Give brain damage spaceman, AKA no change at all
 		br?.take_damage(1)
 		to_chat(M, "<span class='warning'>You feel extremely jittery!</span>")
+
+/datum/reagent/bathsalts
+	name = "Bath Salts"
+	id = "bathsalts"
+	description = "An inpure concoction of various chemicals and stimulants that makes you impervious to stuns and grants a stamina regeneration buff, but will also cause massive neural degradation."
+	taste_description = "salt"//salt is salty
+	reagent_state = LIQUID
+	color = "#e2e2e2"
+	overdose = 15
+
+/datum/reagent/bathsalts/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
+	if(alien == IS_SLIME || alien == IS_DIONA)
+		return
+	var/mob/living/carbon/human/H = M
+	var/obj/item/organ/internal/brain/br = H.internal_organs_by_name[O_BRAIN] //This drug will make you immune to nearly all stuns and pain, but your brain will get FRIED. Intended for those 'last resort' moments.... or florida man shenanigans
+	br?.take_damage(2) //Changed from 4 to 2 because polaris everything dies faster. 2 Brain damage a tick, 10u can still kill you.
+	M.stuttering = max(M.stuttering, 4)
+	M.add_chemical_effect(CE_PAINKILLER, 200)
+	M.make_jittery(5)
+	M.eye_blurry = min(20, max(0, M.eye_blurry + 10))
+	//M.disable_duration_percent = 0 //immune to litterally any and all stun,sleep,halloss, etcetc. Idk how to do this so take this instead
+	M.AdjustStunned(-25)
+	M.AdjustWeakened(-25)
+	M.AdjustParalysis(-25)
+	M.drowsyness = 0
+	M.SetSleeping(0)
+	M.halloss = 0
+	M.shock_stage = 0
+	if(prob(15))
+		to_chat(M, pick("<span class='notice'>You feel amped up.</span>","<span class='notice'>You feel ready..</span>","<span class='notice'>You feel like you can push it to the limit..</span>"))
+
+/datum/reagent/bathsalts/overdose(var/mob/living/carbon/M, var/alien, var/removed) //You will twitch, laugh, drop shit, and have your brain deleted if you OD on this. You fucked up now
+	..()
+	var/mob/living/carbon/human/H = M
+	var/obj/item/organ/internal/brain/br = H.internal_organs_by_name[O_BRAIN]
+	br?.take_damage(8)
+	if(alien == IS_SLIME || alien == IS_DIONA)
+		return
+	if(prob(15))
+		M.emote(pick("twitch", "moan", "drool", "laugh"))
+	if(prob(28))
+		M.drop_r_hand()
+		M.drop_l_hand()
+	if(prob(25))
+		M.Confuse(5)

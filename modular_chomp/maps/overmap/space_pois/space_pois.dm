@@ -24,7 +24,7 @@ Less important
 // This is so CI can validate PoIs, and ensure future changes don't break PoIs, as PoIs are loaded at runtime and the compiler can't catch errors.
 // When adding a new PoI, please add it to this list.
 #if MAP_TEST
-#include "abandonedtele_13x12.dmm"
+//#include "abandonedtele_13x12.dmm"
 #include "abandonedzoo_20x20.dmm"
 #include "asteroid1_20x20.dmm"
 #include "asteroid2_20x20.dmm"
@@ -80,22 +80,23 @@ Less important
 	for(var/turf/T in affected)
 		T.lighting_build_overlay()
 
+/*
 /datum/map_template/dynamic_overmap/abandonedtele_13x12
 	name = "Abandoned Tele"
 	mappath = "modular_chomp/maps/overmap/space_pois/abandonedtele_13x12.dmm"
 	block_size = 13
-
+*/
 /datum/map_template/dynamic_overmap/abandonedzoo_20x20
 	name = "Abandoned Zoo"
-	mappath = "modular_chomp/maps/overmap/space_pois/abandonedzoo_20x20.dmm"
-	block_size = 20
+	mappath = "modular_chomp/maps/overmap/space_pois/abandonedzoo_50x50.dmm"
+	block_size = 50
 
 /datum/map_template/dynamic_overmap/asteroid1_20x20
 	name = "Asteroid"
-	mappath = "modular_chomp/maps/overmap/space_pois/asteroid1_20x20.dmm"
+	mappath = "modular_chomp/maps/overmap/space_pois/asteroid1_60x60.dmm"
 	poi_icon = "asteroid1"
 	active_icon = "asteroid1_g"
-	block_size = 20
+	block_size = 60
 
 /datum/map_template/dynamic_overmap/asteroid2_20x20
 	name = "Asteroid"

@@ -1533,7 +1533,7 @@
 	},
 /area/submap/oldstation_tox)
 "qx" = (
-/obj/structure/grille,
+/obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor/plating,
 /area/submap/oldstation_tox)
 "qF" = (
@@ -4303,7 +4303,7 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
-/obj/structure/grille,
+/obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor/plating,
 /area/submap/oldstation_power)
 "UJ" = (

@@ -98,26 +98,26 @@ Less important
 	active_icon = "asteroid1_g"
 	block_size = 60
 
-/datum/map_template/dynamic_overmap/asteroid2_20x20
+/datum/map_template/dynamic_overmap/asteroid2_60x60
 	name = "Asteroid"
 	mappath = "modular_chomp/maps/overmap/space_pois/asteroid2_20x20.dmm"
 	poi_icon = "asteroid2"
 	active_icon = "asteroid2_g"
-	block_size = 20
+	block_size = 60
 
-/datum/map_template/dynamic_overmap/asteroid3_20x20
+/datum/map_template/dynamic_overmap/asteroid3_60x60
 	name = "Asteroid"
-	mappath = "modular_chomp/maps/overmap/space_pois/asteroid3_20x20.dmm"
+	mappath = "modular_chomp/maps/overmap/space_pois/asteroid3_60x60.dmm"
 	poi_icon = "asteroid3"
 	active_icon = "asteroid3_g"
-	block_size = 20
+	block_size = 60
 
-/datum/map_template/dynamic_overmap/asteroid4_20x20
+/datum/map_template/dynamic_overmap/asteroid4_60x60
 	name = "Asteroid"
-	mappath = "modular_chomp/maps/overmap/space_pois/asteroid4_20x20.dmm"
+	mappath = "modular_chomp/maps/overmap/space_pois/asteroid4_60x60.dmm"
 	poi_icon = "asteroid2"
 	active_icon = "asteroid2_g"
-	block_size = 20
+	block_size = 60
 
 /datum/map_template/dynamic_overmap/asteroid5_40x40
 	name = "Anomalous Astroid"
@@ -136,11 +136,11 @@ Less important
 	mappath = "modular_chomp/maps/overmap/space_pois/clownmime_28x20.dmm"
 	block_size = 28
 
-/datum/map_template/dynamic_overmap/debris1_20x20
+/datum/map_template/dynamic_overmap/debris1_60x60
 	name = "Debris"
-	mappath = "modular_chomp/maps/overmap/space_pois/debris1_20x20.dmm"
-	block_size = 20
-
+	mappath = "modular_chomp/maps/overmap/space_pois/debris1_60x60.dmm"
+	block_size = 60
+/* Mixed all 3 of debris into debris1
 /datum/map_template/dynamic_overmap/debris2_20x20
 	name = "Debris"
 	mappath = "modular_chomp/maps/overmap/space_pois/debris2_20x20.dmm"
@@ -150,7 +150,7 @@ Less important
 	name = "Debris"
 	mappath = "modular_chomp/maps/overmap/space_pois/debris3_30x20.dmm"
 	block_size = 30
-
+*/
 /datum/map_template/dynamic_overmap/deepstorage_85x67
 	name = "Deep Storage Facility"
 	mappath = "modular_chomp/maps/overmap/space_pois/deepstorage_85x67.dmm"

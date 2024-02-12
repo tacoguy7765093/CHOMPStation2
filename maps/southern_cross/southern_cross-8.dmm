@@ -7001,25 +7001,6 @@
 	icon_state = "steel"
 	},
 /area/centcom/main_hall)
-"gjr" = (
-/obj/machinery/door/airlock/voidcraft/vertical{
-	frequency = null;
-	id_tag = null;
-	name = "Ship External Hatch";
-	req_access = null
-	},
-/obj/machinery/door/blast/regular{
-	density = 0;
-	dir = 8;
-	icon_state = "pdoor0";
-	id = "blastninja";
-	name = "Outer Airlock";
-	opacity = 0
-	},
-/obj/effect/map_helper/airlock/door/ext_door,
-/obj/effect/map_helper/airlock/button/ext_button,
-/turf/simulated/shuttle/floor/voidcraft/dark,
-/area/shuttle/ninja)
 "gjv" = (
 /obj/item/toy/plushie/box{
 	pixel_x = 5;
@@ -8299,21 +8280,6 @@
 /obj/effect/floor_decal/spline/fancy,
 /turf/simulated/floor/grass2,
 /area/shadekin)
-"hlP" = (
-/obj/machinery/access_button{
-	dir = 8;
-	name = "exterior access button";
-	pixel_x = 25;
-	pixel_y = 6
-	},
-/obj/machinery/door/airlock{
-	icon = 'icons/obj/doors/Dooruranium.dmi'
-	},
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
-/area/ninja_dojo/dojo)
 "hmc" = (
 /obj/structure/bed/chair,
 /turf/simulated/shuttle/floor{
@@ -14724,6 +14690,31 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/steel_dirty,
 /area/shadekin)
+"mYr" = (
+/obj/machinery/door/airlock/voidcraft/vertical{
+	frequency = null;
+	id_tag = null;
+	name = "Ship External Hatch";
+	req_access = null
+	},
+/obj/machinery/door/blast/regular{
+	density = 0;
+	dir = 8;
+	icon_state = "pdoor0";
+	id = "blastninja";
+	name = "Outer Airlock";
+	opacity = 0
+	},
+/obj/effect/map_helper/airlock/door/ext_door,
+/obj/effect/map_helper/airlock/button/ext_button,
+/obj/machinery/access_button{
+	dir = 8;
+	name = "exterior access button";
+	pixel_x = -7;
+	pixel_y = -26
+	},
+/turf/simulated/shuttle/floor/voidcraft/dark,
+/area/shuttle/ninja)
 "mZO" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/storage/firstaid/fire{
@@ -23790,9 +23781,6 @@
 	},
 /turf/simulated/floor/holofloor/tiled,
 /area/holodeck/source_basketball)
-"vXr" = (
-/turf/simulated/floor/outdoors/grass/heavy,
-/area/shadekin)
 "vXY" = (
 /obj/machinery/teleport/station,
 /turf/unsimulated/floor{
@@ -31042,7 +31030,7 @@ auX
 aaa
 aaa
 gbB
-hlP
+gbB
 aaa
 auX
 auX
@@ -31299,7 +31287,7 @@ auX
 auX
 auX
 aUC
-gjr
+mYr
 aUC
 aUC
 auX
@@ -51952,7 +51940,7 @@ kyg
 oTO
 vRr
 ehg
-vXr
+vRr
 ivs
 vRr
 vRr

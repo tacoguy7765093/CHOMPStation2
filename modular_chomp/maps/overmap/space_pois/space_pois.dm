@@ -91,7 +91,7 @@ Less important
 	mappath = "modular_chomp/maps/overmap/space_pois/abandonedzoo_50x50.dmm"
 	block_size = 50
 
-/datum/map_template/dynamic_overmap/asteroid1_20x20
+/datum/map_template/dynamic_overmap/asteroid1_60x60
 	name = "Asteroid"
 	mappath = "modular_chomp/maps/overmap/space_pois/asteroid1_60x60.dmm"
 	poi_icon = "asteroid1"
@@ -100,7 +100,7 @@ Less important
 
 /datum/map_template/dynamic_overmap/asteroid2_60x60
 	name = "Asteroid"
-	mappath = "modular_chomp/maps/overmap/space_pois/asteroid2_20x20.dmm"
+	mappath = "modular_chomp/maps/overmap/space_pois/asteroid2_60x60.dmm"
 	poi_icon = "asteroid2"
 	active_icon = "asteroid2_g"
 	block_size = 60
@@ -156,11 +156,11 @@ Less important
 	mappath = "modular_chomp/maps/overmap/space_pois/deepstorage_85x67.dmm"
 	block_size = 85
 
-/datum/map_template/dynamic_overmap/derelict1_40x40
-	name = "Contaminated Derelict"
-	mappath = "modular_chomp/maps/overmap/space_pois/derelict1_40x40.dmm"
-	block_size = 40
-
+/datum/map_template/dynamic_overmap/derelict1_100x100
+	name = "Derelict Field"
+	mappath = "modular_chomp/maps/overmap/space_pois/derelict1_100x100.dmm"
+	block_size = 100
+/*
 /datum/map_template/dynamic_overmap/derelict2_20x20
 	name = "Dinner"
 	mappath = "modular_chomp/maps/overmap/space_pois/derelict2_20x20.dmm"
@@ -180,17 +180,17 @@ Less important
 	name = "Ruins?"
 	mappath = "modular_chomp/maps/overmap/space_pois/derelict5_40x40.dmm"
 	block_size = 40
-
+*/
 /datum/map_template/dynamic_overmap/dj_31x28
 	name = "DJ Grooves"
 	mappath = "modular_chomp/maps/overmap/space_pois/dj_31x28.dmm"
 	block_size = 31
 
-/datum/map_template/dynamic_overmap/druglab_16x14
-	name = "Drug Lab"
-	mappath = "modular_chomp/maps/overmap/space_pois/druglab_16x14.dmm"
-	block_size = 16
-
+/datum/map_template/dynamic_overmap/druglab_32x32
+	name = "Suspicious Asteroids"
+	mappath = "modular_chomp/maps/overmap/space_pois/druglab_32x32.dmm"
+	block_size = 32
+/*
 /datum/map_template/dynamic_overmap/emptyshell_17x15
 	name = "Detatched Ship Hull"
 	mappath = "modular_chomp/maps/overmap/space_pois/emptyshell_17x15.dmm"
@@ -200,31 +200,31 @@ Less important
 	name = "Animal Testing Lab"
 	mappath = "modular_chomp/maps/overmap/space_pois/gasthelizards_19x14.dmm"
 	block_size = 19
-
-/datum/map_template/dynamic_overmap/golemtarget_30x30
+*/
+/datum/map_template/dynamic_overmap/golemtarget_30x30 //Leaving this one as is, kinda funny
 	name = "WARNING: HIGH GRAVITATIONAL FIELD DETECTED"
 	mappath = "modular_chomp/maps/overmap/space_pois/golemtarget_30x30.dmm"
 	block_size = 30
 
-/datum/map_template/dynamic_overmap/intactemptyship_13x11
-	name = "Still Ship"
-	mappath = "modular_chomp/maps/overmap/space_pois/intactemptyship_13x11.dmm"
-	block_size = 13
-
+/datum/map_template/dynamic_overmap/intactemptyship_30x25
+	name = "Crashed Ships"
+	mappath = "modular_chomp/maps/overmap/space_pois/intactemptyship_30x25.dmm"
+	block_size = 30
+/*
 /datum/map_template/dynamic_overmap/mechtransport_9x15
 	name = "Crashed Mecha Transport"
 	mappath = "modular_chomp/maps/overmap/space_pois/mechtransport_9x15.dmm"
 	block_size = 15
-
+*/
 /datum/map_template/dynamic_overmap/oldstation_80x45
 	name = "Charlie Station"
 	mappath = "modular_chomp/maps/overmap/space_pois/oldstation_80x45.dmm"
 	block_size = 80
 
-/datum/map_template/dynamic_overmap/onehalf_32x20
+/datum/map_template/dynamic_overmap/onehalf_60x20.dmm
 	name = "Drone Factory"
-	mappath = "modular_chomp/maps/overmap/space_pois/onehalf_32x20.dmm"
-	block_size = 32
+	mappath = "modular_chomp/maps/overmap/space_pois/onehalf_60x20.dmm"
+	block_size = 60
 
 /datum/map_template/dynamic_overmap/spacebar_40x40
 	name = "Space Bar Dome"
@@ -265,12 +265,12 @@ Less important
 	name = "Abandoned Teleporter Relay"
 	mappath = "modular_chomp/maps/overmap/space_pois/ussptele_21x12.dmm"
 	block_size = 21
-
+/*
 /datum/map_template/dynamic_overmap/wayhome_30x30
 	name = "Strange Rock"
 	mappath = "modular_chomp/maps/overmap/space_pois/wayhome_30x30.dmm"
 	block_size = 30
-
+*/
 /datum/map_template/dynamic_overmap/whiteship_55x30
 	name = "White Ship"
 	mappath = "modular_chomp/maps/overmap/space_pois/whiteship_55x30.dmm"

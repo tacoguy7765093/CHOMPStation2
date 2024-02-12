@@ -2669,3 +2669,8 @@ var/list/the_station_areas = list (
 	name = "\improper Baby_mammoth"
 	icon_state = "shuttlered"
 	requires_power = 1
+
+/area/shuttle/whiteship
+	name = "\improper White Ship"
+	icon_state = "shuttlered"
+	requires_power = 1

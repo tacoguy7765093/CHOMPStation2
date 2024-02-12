@@ -1,4 +1,10 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"bj" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/mineral/floor/vacuum,
+/area/submap/asteroid4)
 "bM" = (
 /obj/structure/window/reinforced{
 	health = 1e+006;
@@ -14,12 +20,23 @@
 /obj/item/weapon/reagent_containers/food/snacks/cubancarp,
 /turf/simulated/floor/tiled/white,
 /area/submap/asteroid4)
+"cF" = (
+/obj/structure/railing/grey{
+	dir = 1
+	},
+/obj/item/weapon/ore/uranium,
+/turf/simulated/mineral/floor/vacuum,
+/area/submap/asteroid4)
 "db" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
+/area/submap/asteroid4)
+"du" = (
+/obj/structure/railing/grey,
+/turf/simulated/mineral/floor/vacuum,
 /area/submap/asteroid4)
 "dC" = (
 /obj/machinery/atmospherics/pipe/tank/air/full{
@@ -98,10 +115,22 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
 /area/submap/asteroid4)
+"ie" = (
+/obj/structure/railing/grey{
+	dir = 8
+	},
+/turf/simulated/mineral/floor/vacuum,
+/area/submap/asteroid4)
 "iW" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
+/area/submap/asteroid4)
+"jv" = (
+/obj/structure/railing/grey{
+	dir = 1
+	},
+/turf/simulated/mineral/floor/vacuum,
 /area/submap/asteroid4)
 "jE" = (
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -131,6 +160,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
 /area/submap/asteroid4)
+"ls" = (
+/obj/machinery/light/floortube,
+/obj/effect/catwalk_plated/techfloor,
+/turf/simulated/mineral/floor/vacuum,
+/area/submap/asteroid4)
 "mh" = (
 /obj/structure/table/standard,
 /obj/item/weapon/tool/transforming/jawsoflife,
@@ -142,6 +176,11 @@
 /obj/item/weapon/storage/toolbox/syndicate/powertools,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
+/area/submap/asteroid4)
+"nf" = (
+/obj/effect/decal/remains,
+/obj/effect/catwalk_plated/techfloor,
+/turf/simulated/mineral/floor/vacuum,
 /area/submap/asteroid4)
 "nj" = (
 /obj/machinery/door/airlock/external{
@@ -168,6 +207,10 @@
 "ot" = (
 /turf/simulated/mineral,
 /area/template_noop)
+"oA" = (
+/obj/structure/boulder,
+/turf/simulated/mineral/floor/vacuum,
+/area/submap/asteroid4)
 "oK" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 4
@@ -195,6 +238,19 @@
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
+/area/submap/asteroid4)
+"rg" = (
+/obj/machinery/floodlight,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/mineral/floor/vacuum,
+/area/submap/asteroid4)
+"rt" = (
+/obj/structure/railing/grey{
+	dir = 4
+	},
+/turf/simulated/mineral/floor/vacuum,
 /area/submap/asteroid4)
 "rO" = (
 /obj/structure/sign/signnew/cryogenics,
@@ -275,12 +331,22 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
 /area/submap/asteroid4)
+"xl" = (
+/obj/random/junk,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/liquid_fuel,
+/turf/simulated/floor/tiled/white,
+/area/submap/asteroid4)
 "xq" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
+/area/submap/asteroid4)
+"xB" = (
+/obj/effect/decal/remains,
+/turf/simulated/mineral/floor/vacuum,
 /area/submap/asteroid4)
 "xF" = (
 /obj/structure/shuttle/engine/propulsion/burst,
@@ -362,6 +428,20 @@
 	tag = ""
 	},
 /obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/tiled/white,
+/area/submap/asteroid4)
+"Cd" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/reagent_dispensers/fueltank,
+/obj/effect/decal/cleanable/liquid_fuel,
+/turf/simulated/floor/tiled/white,
+/area/submap/asteroid4)
+"Da" = (
+/obj/machinery/light{
+	layer = 3
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/liquid_fuel,
 /turf/simulated/floor/tiled/white,
 /area/submap/asteroid4)
 "Dv" = (
@@ -455,6 +535,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
 /area/submap/asteroid4)
+"HN" = (
+/obj/machinery/light/floortube,
+/obj/structure/railing/grey{
+	dir = 4
+	},
+/turf/simulated/mineral/floor/vacuum,
+/area/submap/asteroid4)
 "HW" = (
 /obj/structure/table/standard,
 /turf/simulated/floor/tiled/white,
@@ -487,6 +574,11 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/item/clothing/suit/armor/material/makeshift,
 /turf/simulated/floor/tiled/white,
+/area/submap/asteroid4)
+"Ke" = (
+/obj/effect/decal/remains,
+/obj/item/weapon/material/shard/shrapnel,
+/turf/simulated/mineral/floor/vacuum,
 /area/submap/asteroid4)
 "Ku" = (
 /obj/machinery/power/smes/buildable/hybrid,
@@ -550,12 +642,26 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
 /area/submap/asteroid4)
+"MK" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/liquid_fuel,
+/turf/simulated/floor/tiled/white,
+/area/submap/asteroid4)
+"Ns" = (
+/obj/item/weapon/pickaxe,
+/turf/simulated/mineral/floor/vacuum,
+/area/submap/asteroid4)
 "OU" = (
 /obj/effect/decal/cleanable/dirt,
 /mob/living/carbon/human/ai_controlled/greytide{
 	icon_state = "rune_teleport"
 	},
 /turf/simulated/floor/tiled/white,
+/area/submap/asteroid4)
+"Pv" = (
+/obj/effect/catwalk_plated/techfloor,
+/obj/item/weapon/material/shard/shrapnel,
+/turf/simulated/mineral/floor/vacuum,
 /area/submap/asteroid4)
 "PB" = (
 /obj/machinery/access_button{
@@ -581,6 +687,7 @@
 	pixel_x = 23;
 	pixel_y = 35
 	},
+/obj/effect/catwalk_plated/techfloor,
 /turf/simulated/mineral/floor/vacuum,
 /area/submap/asteroid4)
 "Rd" = (
@@ -600,6 +707,14 @@
 "RW" = (
 /obj/structure/shuttle/window,
 /turf/simulated/shuttle/plating,
+/area/submap/asteroid4)
+"Sf" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/reagent_dispensers/watertank,
+/turf/simulated/floor/tiled/white,
 /area/submap/asteroid4)
 "SZ" = (
 /obj/machinery/atmospherics/pipe/manifold/visible{
@@ -678,6 +793,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
 /area/submap/asteroid4)
+"XN" = (
+/obj/structure/railing/grey{
+	dir = 4
+	},
+/obj/item/weapon/material/shard/shrapnel,
+/turf/simulated/mineral/floor/vacuum,
+/area/submap/asteroid4)
 "XO" = (
 /obj/structure/table/standard,
 /obj/machinery/atmospherics/unary/vent_pump{
@@ -699,9 +821,26 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
 /area/submap/asteroid4)
+"YU" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/weapon/cell/high,
+/obj/effect/decal/cleanable/liquid_fuel,
+/turf/simulated/floor/tiled/white,
+/area/submap/asteroid4)
+"Zf" = (
+/obj/item/weapon/material/shard/shrapnel,
+/turf/simulated/mineral/floor/vacuum,
+/area/submap/asteroid4)
 "Zp" = (
 /turf/simulated/mineral/floor/vacuum,
 /area/template_noop)
+"Zr" = (
+/obj/effect/decal/remains,
+/obj/structure/railing/grey{
+	dir = 4
+	},
+/turf/simulated/mineral/floor/vacuum,
+/area/submap/asteroid4)
 "ZB" = (
 /obj/structure/shuttle/window,
 /obj/structure/grille,
@@ -712,6 +851,10 @@
 /area/submap/asteroid4)
 "ZG" = (
 /turf/simulated/floor/reinforced/airless,
+/area/submap/asteroid4)
+"ZP" = (
+/obj/item/weapon/ore/uranium,
+/turf/simulated/mineral/floor/vacuum,
 /area/submap/asteroid4)
 "ZZ" = (
 /obj/machinery/atmospherics/binary/pump{
@@ -1490,7 +1633,7 @@ xT
 xT
 xT
 xT
-xT
+oA
 xT
 Ik
 Ik
@@ -1544,8 +1687,8 @@ Ik
 xT
 xT
 xT
-xT
-xT
+oA
+oA
 xT
 xT
 xT
@@ -1605,6 +1748,9 @@ xT
 xT
 xT
 xT
+oA
+oA
+oA
 xT
 xT
 xT
@@ -1612,10 +1758,7 @@ xT
 xT
 xT
 xT
-xT
-xT
-xT
-xT
+oA
 Ik
 Ik
 Ik
@@ -1668,7 +1811,7 @@ xT
 xT
 xT
 xT
-xT
+oA
 xT
 xT
 xT
@@ -1725,8 +1868,8 @@ Ik
 Ik
 xT
 xT
-xT
-xT
+oA
+oA
 xT
 xT
 xT
@@ -1793,6 +1936,7 @@ xT
 xT
 xT
 xT
+oA
 xT
 xT
 xT
@@ -1802,8 +1946,7 @@ xT
 xT
 xT
 xT
-xT
-xT
+oA
 Ik
 Ik
 Ik
@@ -1982,16 +2125,16 @@ qF
 qF
 HW
 TT
+bj
 xT
 xT
 xT
+Zr
 xT
 xT
-xT
-xT
-xT
-xT
-pk
+XN
+rt
+HN
 TX
 TX
 TX
@@ -2040,20 +2183,20 @@ sX
 qF
 qF
 gw
-qF
-Xu
+MK
+Da
 TT
 TT
 xT
 xT
 xT
 xT
-xT
-xT
-xT
-xT
-xT
-xT
+TX
+TX
+TX
+TX
+TX
+TX
 TX
 TX
 TX
@@ -2102,20 +2245,20 @@ qF
 qF
 qF
 gw
-qF
-qF
+MK
+Cd
 nn
 xT
 xT
 xT
 xT
-xT
-xT
-xT
-xT
-xT
-xT
-xT
+du
+TX
+TX
+TX
+TX
+TX
+TX
 TX
 TX
 TX
@@ -2164,20 +2307,20 @@ tJ
 He
 AJ
 gw
-Ed
-vo
+xl
+YU
 nn
 xT
 xT
+xB
 xT
+du
+TX
+Pv
 xT
-xT
-xT
-xT
-xT
-xT
-xT
-xT
+ie
+Zf
+Ke
 TX
 TX
 Ik
@@ -2226,16 +2369,16 @@ Ay
 Ay
 Ay
 MF
-qF
-qF
+MK
+MK
 nn
 xT
 xT
 xT
 xT
 xT
-xT
-xT
+TX
+TX
 xT
 xT
 xT
@@ -2289,15 +2432,15 @@ GZ
 jE
 wi
 qF
-Xu
+Da
 Kv
 TT
 xT
 xT
 xT
 xT
-xT
-xT
+TX
+nf
 xT
 xT
 xT
@@ -2354,16 +2497,16 @@ qF
 db
 Xs
 TT
+bj
 xT
 xT
 xT
-xT
-xT
-xT
-xT
-xT
-xT
-xT
+TX
+TX
+cF
+ZP
+ZP
+Ns
 xT
 Ik
 Ik
@@ -2416,16 +2559,16 @@ iW
 oK
 Xs
 TT
-dW
+rg
 xT
 xT
+du
+Pv
+TX
 xT
-xT
-xT
-xT
-xT
-xT
-xT
+ZP
+oA
+oA
 xT
 Ik
 Ik
@@ -2481,14 +2624,14 @@ TT
 xT
 xT
 xT
+du
+TX
+TX
+jv
 xT
-xT
-xT
-xT
-xT
-xT
-xT
-xT
+oA
+oA
+oA
 Ik
 Ik
 Ik
@@ -2544,9 +2687,9 @@ xT
 xT
 xT
 xT
-xT
-xT
-xT
+TX
+TX
+jv
 xT
 xT
 xT
@@ -2606,9 +2749,9 @@ xT
 xT
 xT
 xT
-xT
-xT
-xT
+TX
+TX
+jv
 xT
 xT
 xT
@@ -2665,12 +2808,12 @@ Xu
 TT
 TT
 Ff
-pk
-xT
-xT
-pk
-xT
-xT
+ls
+TX
+TX
+ls
+TX
+jv
 xT
 xT
 xT
@@ -2728,10 +2871,10 @@ Ec
 Ui
 nj
 Qr
-xT
-xT
-xT
-xT
+TX
+TX
+TX
+TX
 xT
 xT
 xT
@@ -2773,8 +2916,8 @@ zW
 Ik
 Ik
 Ik
-xT
-xT
+oA
+oA
 xT
 xT
 TT
@@ -2789,11 +2932,11 @@ Fv
 TT
 TT
 uO
-pk
-xT
-xT
-pk
-xT
+ls
+TX
+TX
+ls
+TX
 xT
 xT
 xT
@@ -2835,8 +2978,8 @@ zW
 Ik
 Ik
 Ik
-xT
-xT
+oA
+oA
 xT
 xT
 TT
@@ -2852,10 +2995,10 @@ nn
 xT
 xT
 xT
+ie
 xT
 xT
-xT
-xT
+ie
 xT
 xT
 Ik
@@ -2909,17 +3052,17 @@ TT
 Ed
 qF
 qF
-lk
+Sf
 nn
 xT
 xT
 xT
 xT
 xT
+ie
 xT
 xT
-xT
-xT
+oA
 Ik
 Ik
 zW
@@ -2981,7 +3124,7 @@ xT
 xT
 xT
 xT
-xT
+oA
 Ik
 Ik
 zW
@@ -3022,7 +3165,7 @@ Ik
 Ik
 Ik
 xT
-xT
+oA
 xT
 xT
 xT
@@ -3036,13 +3179,13 @@ qF
 SZ
 dC
 TT
-dW
+rg
 xT
 xT
 xT
 xT
 xT
-xT
+oA
 Ik
 Ik
 Ik
@@ -3084,7 +3227,7 @@ Ik
 Ik
 Ik
 xT
-xT
+oA
 xT
 xT
 xT
@@ -3098,7 +3241,7 @@ qF
 hF
 dC
 TT
-dW
+rg
 xT
 xT
 xT
@@ -3146,7 +3289,7 @@ Ik
 Ik
 Ik
 xT
-xT
+oA
 xT
 xT
 TT
@@ -3271,7 +3414,7 @@ Ik
 Ik
 Ik
 xT
-xT
+oA
 xT
 xT
 nn
@@ -3333,7 +3476,7 @@ Ik
 Ik
 Ik
 xT
-xT
+oA
 xT
 xT
 nn
@@ -3456,7 +3599,7 @@ zW
 Ik
 Ik
 Ik
-xT
+oA
 xT
 xT
 TT
@@ -3470,11 +3613,11 @@ qF
 qF
 nP
 TT
+bj
 xT
 xT
 xT
-xT
-xT
+oA
 xT
 xT
 Ik
@@ -3536,7 +3679,7 @@ xT
 xT
 xT
 xT
-xT
+oA
 xT
 Ik
 Ik
@@ -3598,7 +3741,7 @@ xT
 xT
 xT
 xT
-xT
+oA
 xT
 Ik
 Ik
@@ -3644,7 +3787,7 @@ Ik
 Ik
 Ik
 xT
-xT
+oA
 xT
 xT
 xT
@@ -3659,8 +3802,8 @@ xT
 xT
 xT
 xT
-xT
-xT
+oA
+oA
 Ik
 Ik
 Ik
@@ -3706,7 +3849,7 @@ Ik
 Ik
 Ik
 Ik
-xT
+oA
 xT
 xT
 xT
@@ -3840,9 +3983,9 @@ xT
 xT
 xT
 xT
-xT
-xT
-xT
+oA
+oA
+oA
 xT
 xT
 Ik
@@ -3902,10 +4045,10 @@ xT
 xT
 xT
 xT
+oA
+oA
 xT
-xT
-xT
-xT
+oA
 Ik
 Ik
 Ik

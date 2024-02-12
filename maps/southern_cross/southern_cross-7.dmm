@@ -27692,7 +27692,7 @@
 /area/expoutpost/hangarfive)
 "vmL" = (
 /obj/effect/catwalk_plated/dark,
-/obj/machinery/shipsensors/weak,
+/obj/machinery/shipsensors,
 /turf/simulated/floor,
 /area/shuttle/needle)
 "vmY" = (

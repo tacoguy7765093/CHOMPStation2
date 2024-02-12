@@ -108,25 +108,3 @@
 	name = "short jump console"
 	shuttle_tag = "Echidna"
 	req_one_access = list(access_pilot)
-
-//White ship, for POI use
-/datum/shuttle/autodock/overmap/whiteship
-	name = "The White Ship"
-	warmup_time = 5
-	docking_controller_tag = "white_ship"
-	current_location = "white_ship_dock"
-	shuttle_area = /area/shuttle/whiteship
-	fuel_consumption = 2
-	move_direction = NORTH
-
-/obj/effect/overmap/visitable/ship/landable/whiteship
-	name = "The White Ship"
-	desc = "Unknown Vessel"
-	vessel_mass = 6000
-	vessel_size = SHIP_SIZE_LARGE
-	shuttle = "White Ship"
-
-/obj/machinery/computer/shuttle_control/explore/whiteship
-	name = "short jump console"
-	shuttle_tag = "white_ship"
-	req_one_access = list(access_pilot)

@@ -6,23 +6,13 @@
 /obj/item/clothing/mask/breath,
 /turf/simulated/floor/tiled/eris/white/techfloor,
 /area/shuttle/whiteship)
-"ae" = (
-/obj/random/junk,
-/turf/simulated/floor/tiled/eris/white/techfloor,
-/area/submap/whiteship)
 "al" = (
 /obj/item/device/multitool,
 /turf/simulated/floor/tiled/eris/white/techfloor,
 /area/shuttle/whiteship)
-"ar" = (
+"aJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
-	},
-/turf/simulated/wall/rthull,
-/area/shuttle/whiteship)
-"aB" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/yellow{
-	dir = 10
 	},
 /turf/simulated/wall/rthull,
 /area/shuttle/whiteship)
@@ -39,6 +29,11 @@
 "co" = (
 /obj/machinery/sleep_console,
 /turf/simulated/floor/tiled/techmaint,
+/area/shuttle/whiteship)
+"cv" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/random/trash,
+/turf/simulated/floor/tiled/eris/steel/techfloor_grid,
 /area/shuttle/whiteship)
 "cA" = (
 /obj/machinery/door/blast/regular{
@@ -57,28 +52,23 @@
 /obj/item/stack/cable_coil/cut,
 /turf/simulated/floor/tiled/eris/white/techfloor,
 /area/shuttle/whiteship)
-"cW" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/eris/white/techfloor,
-/area/submap/whiteship)
-"dw" = (
-/obj/machinery/computer/ship/helm{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/eris/white/techfloor,
-/area/shuttle/whiteship)
-"dK" = (
-/obj/effect/landmark/loot_spawn/low,
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/eris/white/techfloor,
-/area/shuttle/whiteship)
-"dZ" = (
+"cT" = (
 /obj/structure/table/standard,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/device/analyzer,
 /turf/simulated/floor/tiled/eris/steel/techfloor_grid,
 /area/shuttle/whiteship)
-"ed" = (
+"dw" = (
+/obj/structure/salvageable/console_broken_os{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/eris/white/techfloor,
+/area/shuttle/whiteship)
+"dZ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/salvageable/console_broken_os{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/eris/steel/techfloor_grid,
 /area/shuttle/whiteship)
 "en" = (
@@ -96,6 +86,12 @@
 "ew" = (
 /turf/simulated/floor/tiled/eris/white/techfloor,
 /area/shuttle/whiteship)
+"eG" = (
+/obj/machinery/atmospherics/pipe/manifold/visible{
+	dir = 8
+	},
+/turf/simulated/wall/rthull,
+/area/shuttle/whiteship)
 "eN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/random/junk,
@@ -105,7 +101,28 @@
 /obj/random/trash,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/whiteship)
-"eZ" = (
+"eY" = (
+/obj/machinery/portable_atmospherics/powered/scrubber,
+/turf/simulated/floor/tiled/eris/white/techfloor,
+/area/shuttle/whiteship)
+"fr" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/tiled/eris/white/techfloor,
+/area/shuttle/whiteship)
+"fu" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/tiled/eris/white/techfloor,
+/area/submap/whiteship)
+"fw" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	frequency = 1380;
+	id_tag = "white_ship_pump";
+	dir = 8
+	},
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
@@ -113,25 +130,27 @@
 	},
 /turf/simulated/floor/tiled/eris/white/techfloor,
 /area/shuttle/whiteship)
-"fh" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/yellow{
-	dir = 5
-	},
-/turf/simulated/floor/plating,
-/area/shuttle/whiteship)
-"fy" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/yellow{
-	dir = 1
-	},
-/turf/simulated/floor/plating,
+"fH" = (
+/obj/random/junk,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/whiteship)
 "fR" = (
 /turf/template_noop,
 /area/template_noop)
+"go" = (
+/obj/machinery/atmospherics/portables_connector{
+	dir = 4
+	},
+/obj/machinery/portable_atmospherics/canister/air/airlock,
+/turf/simulated/floor/tiled/techmaint,
+/area/shuttle/whiteship)
 "gr" = (
 /obj/item/weapon/surgical/scalpel,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/techmaint,
+/area/shuttle/whiteship)
+"gC" = (
+/turf/simulated/floor/tiled/eris/steel/techfloor_grid,
 /area/shuttle/whiteship)
 "gJ" = (
 /turf/simulated/wall/rthull,
@@ -145,39 +164,12 @@
 /obj/machinery/door/window/northright,
 /turf/simulated/floor/tiled/techmaint,
 /area/shuttle/whiteship)
-"gY" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/yellow{
-	dir = 6
-	},
-/turf/simulated/wall/rthull,
-/area/shuttle/whiteship)
-"hh" = (
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 10
-	},
-/turf/simulated/wall/rthull,
-/area/shuttle/whiteship)
-"hF" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
-	},
-/turf/simulated/floor/tiled/eris/white/techfloor,
+"hc" = (
+/turf/template_noop,
 /area/shuttle/whiteship)
 "hM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/random/junk,
-/turf/simulated/floor/tiled/eris/white/techfloor,
-/area/shuttle/whiteship)
-"hU" = (
-/obj/machinery/access_button{
-	command = "cycle_interior";
-	frequency = 1380;
-	master_tag = "white_ship";
-	name = "interior access button";
-	pixel_y = 26
-	},
 /turf/simulated/floor/tiled/eris/white/techfloor,
 /area/shuttle/whiteship)
 "ir" = (
@@ -185,17 +177,37 @@
 /turf/simulated/floor/tiled/eris/white/techfloor,
 /area/shuttle/whiteship)
 "kz" = (
-/turf/simulated/floor/tiled/eris/white/techfloor,
-/area/submap/whiteship)
+/obj/machinery/atmospherics/pipe/simple/hidden/yellow{
+	dir = 10
+	},
+/turf/simulated/wall/rthull,
+/area/shuttle/whiteship)
 "lo" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/random/trash,
-/turf/simulated/floor/tiled/eris/steel/techfloor_grid,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/submap/whiteship)
+"lx" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/yellow{
+	dir = 8
+	},
+/turf/simulated/wall/rthull,
 /area/shuttle/whiteship)
 "lR" = (
 /obj/effect/landmark/loot_spawn/low,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/eris/white/techfloor,
+/area/submap/whiteship)
+"lW" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 10
+	},
+/turf/simulated/wall/rthull,
+/area/shuttle/whiteship)
+"mI" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/random/junk,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/submap/whiteship)
 "mL" = (
 /obj/effect/decal/cleanable/dirt,
@@ -207,11 +219,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/techmaint,
 /area/shuttle/whiteship)
-"nO" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/yellow{
-	dir = 9
-	},
-/turf/simulated/wall/rthull,
+"nm" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/random/junk,
+/turf/simulated/floor/tiled/eris/steel/techfloor_grid,
 /area/shuttle/whiteship)
 "nP" = (
 /obj/machinery/power/apc{
@@ -258,20 +269,6 @@
 /obj/structure/bed/padded,
 /turf/simulated/floor/tiled/techmaint,
 /area/shuttle/whiteship)
-"oB" = (
-/obj/machinery/access_button{
-	command = "cycle_exterior";
-	frequency = 1380;
-	master_tag = "white_ship";
-	name = "exterior access button";
-	pixel_y = -26
-	},
-/turf/template_noop,
-/area/template_noop)
-"pi" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/yellow,
-/turf/simulated/floor/plating,
-/area/shuttle/whiteship)
 "pE" = (
 /obj/machinery/door/airlock/glass{
 	name = "Pod Bay"
@@ -284,12 +281,10 @@
 /mob/living/simple_mob/metroid/juvenile/zeta,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/whiteship)
-"qq" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/yellow{
-	dir = 6
-	},
-/turf/simulated/floor/plating,
-/area/shuttle/whiteship)
+"qz" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/submap/whiteship)
 "qP" = (
 /mob/living/simple_mob/humanoid/merc/melee,
 /obj/random/gun/random,
@@ -303,14 +298,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/eris/steel/techfloor_grid,
 /area/shuttle/whiteship)
+"sj" = (
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/submap/whiteship)
 "sn" = (
 /obj/random/junk,
 /turf/simulated/floor/tiled/eris/steel/techfloor_grid,
-/area/shuttle/whiteship)
-"sp" = (
-/obj/machinery/atmospherics/portables_connector,
-/obj/machinery/portable_atmospherics/canister/phoron/cold,
-/turf/simulated/floor/tiled/eris/white/techfloor,
 /area/shuttle/whiteship)
 "tb" = (
 /obj/item/weapon/cell{
@@ -330,10 +323,14 @@
 /turf/simulated/floor/tiled/eris/white/techfloor,
 /area/shuttle/whiteship)
 "tc" = (
-/obj/machinery/computer/ship/sensors{
-	dir = 4
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/bed/chair/bay/comfy/green{
+	dir = 8
 	},
-/turf/simulated/floor/tiled/eris/white/techfloor,
+/turf/simulated/floor/tiled/eris/steel/techfloor_grid,
+/area/shuttle/whiteship)
+"tf" = (
+/turf/simulated/floor/plating,
 /area/shuttle/whiteship)
 "tg" = (
 /obj/effect/decal/cleanable/dirt,
@@ -345,12 +342,6 @@
 /obj/structure/bed/chair,
 /turf/simulated/floor/tiled/eris/white/techfloor,
 /area/shuttle/whiteship)
-"tS" = (
-/obj/machinery/atmospherics/pipe/manifold/visible{
-	dir = 2
-	},
-/turf/simulated/wall/rthull,
-/area/shuttle/whiteship)
 "us" = (
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor/tiled/techmaint,
@@ -361,10 +352,16 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/shuttle/whiteship)
+"uA" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/yellow{
+	dir = 5
+	},
+/turf/simulated/wall/rthull,
+/area/shuttle/whiteship)
 "uD" = (
-/obj/effect/landmark/loot_spawn/low,
-/turf/simulated/floor/tiled/eris/white/techfloor,
-/area/submap/whiteship)
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/tiled/eris/steel/techfloor_grid,
+/area/shuttle/whiteship)
 "va" = (
 /obj/random/trash,
 /obj/structure/cable{
@@ -374,48 +371,19 @@
 	},
 /turf/simulated/floor/tiled/eris/white/techfloor,
 /area/shuttle/whiteship)
+"vc" = (
+/obj/effect/landmark/loot_spawn/low,
+/turf/simulated/floor/tiled/eris/white/techfloor,
+/area/submap/whiteship)
 "vf" = (
 /mob/living/simple_mob/metroid/juvenile/super,
 /turf/simulated/floor/tiled/eris/white/techfloor,
 /area/shuttle/whiteship)
-"vv" = (
-/obj/machinery/embedded_controller/radio/airlock/docking_port{
-	frequency = 1380;
-	id_tag = "white_ship";
-	tag_airpump = "white_ship_pump";
-	tag_chamber_sensor = "white_ship_sensor";
-	tag_exterior_door = "white_ship_outer";
-	tag_interior_door = "white_ship_inner";
-	pixel_x = 28
-	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	frequency = 1380;
-	id_tag = "white_ship_pump";
-	dir = 8
-	},
-/obj/machinery/airlock_sensor{
-	frequency = 1380;
-	id_tag = "white_ship_sensor";
-	pixel_y = 28;
-	pixel_x = 28
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/eris/white/techfloor,
-/area/shuttle/whiteship)
 "vQ" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/shuttle/whiteship)
-"wc" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/bed/chair/bay/comfy/green{
+/obj/machinery/atmospherics/unary/engine{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/eris/steel/techfloor_grid,
+/turf/template_noop,
 /area/shuttle/whiteship)
 "wd" = (
 /obj/machinery/computer/pod{
@@ -437,22 +405,11 @@
 "wD" = (
 /turf/simulated/wall/rthull,
 /area/shuttle/whiteship)
-"xl" = (
-/obj/machinery/door/airlock/glass{
-	name = "Hibernation Pods"
+"xq" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/yellow{
+	dir = 6
 	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/techmaint,
-/area/shuttle/whiteship)
-"xm" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/eris/white/techfloor,
+/turf/simulated/floor/plating,
 /area/shuttle/whiteship)
 "xw" = (
 /obj/structure/table/rack,
@@ -462,40 +419,25 @@
 /obj/item/weapon/tank/emergency/oxygen,
 /turf/simulated/floor/tiled/eris/white/techfloor,
 /area/shuttle/whiteship)
-"yl" = (
-/obj/machinery/door/airlock/glass{
-	welded = 1
-	},
-/turf/simulated/floor/tiled/eris/white/techfloor,
-/area/shuttle/whiteship)
 "yw" = (
 /obj/structure/frame/computer,
 /turf/simulated/floor/tiled/eris/white/techfloor,
 /area/shuttle/whiteship)
-"yR" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	frequency = 1380;
-	id_tag = "white_ship_pump";
-	dir = 8
-	},
+"yA" = (
+/obj/machinery/door/airlock/voidcraft/survival_pod,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/effect/shuttle_landmark{
-	base_area = /area/shuttle/whiteship;
-	base_turf = /turf/space;
-	landmark_tag = "white_ship_dock";
-	name = "White Ship Dock";
-	docking_controller = "white_ship"
-	},
 /turf/simulated/floor/tiled/eris/white/techfloor,
 /area/shuttle/whiteship)
-"zh" = (
-/obj/machinery/door/airlock/glass,
-/turf/simulated/floor/tiled/eris/white/techfloor,
-/area/submap/whiteship)
+"ze" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/yellow{
+	dir = 6
+	},
+/turf/simulated/wall/rthull,
+/area/shuttle/whiteship)
 "zt" = (
 /obj/structure/shuttle/engine/heater{
 	dir = 4
@@ -516,19 +458,6 @@
 /obj/random/trash,
 /turf/simulated/floor/tiled/techmaint,
 /area/shuttle/whiteship)
-"zW" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume{
-	frequency = 1380;
-	id_tag = "white_ship_pump";
-	dir = 8
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/eris/white/techfloor,
-/area/shuttle/whiteship)
 "zY" = (
 /obj/item/weapon/cell{
 	charge = 100;
@@ -544,27 +473,16 @@
 /obj/random/maintenance/engineering,
 /turf/simulated/floor/tiled/eris/white/techfloor,
 /area/shuttle/whiteship)
+"Ap" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/salvageable/console_broken_os{
+	dir = 2
+	},
+/turf/simulated/floor/tiled/eris/steel/techfloor_grid,
+/area/shuttle/whiteship)
 "At" = (
 /obj/effect/landmark/loot_spawn/low,
 /turf/simulated/floor/tiled/eris/white/techfloor,
-/area/shuttle/whiteship)
-"Ax" = (
-/obj/machinery/door/airlock/voidcraft/survival_pod{
-	id_tag = "white_ship_outer"
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/eris/white/techfloor,
-/area/shuttle/whiteship)
-"AI" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/computer/ship/navigation{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/eris/steel/techfloor_grid,
 /area/shuttle/whiteship)
 "AQ" = (
 /obj/machinery/door/airlock/glass,
@@ -580,28 +498,37 @@
 /obj/structure/grille,
 /turf/simulated/floor/plating,
 /area/shuttle/whiteship)
-"BA" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/yellow{
-	dir = 5
-	},
-/turf/simulated/wall/rthull,
-/area/shuttle/whiteship)
 "Cd" = (
 /mob/living/simple_mob/humanoid/merc/melee,
 /turf/simulated/floor/tiled/techmaint,
+/area/shuttle/whiteship)
+"Cr" = (
+/obj/machinery/atmospherics/pipe/manifold/visible{
+	dir = 2
+	},
+/turf/simulated/wall/rthull,
 /area/shuttle/whiteship)
 "Dc" = (
 /obj/machinery/door/window,
 /turf/simulated/floor/tiled/techmaint,
 /area/shuttle/whiteship)
-"Es" = (
+"Em" = (
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor/tiled/eris/white/techfloor,
 /area/shuttle/whiteship)
-"EC" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/random/junk,
-/turf/simulated/floor/tiled/eris/steel/techfloor_grid,
+"Es" = (
+/obj/machinery/door/airlock/glass{
+	welded = 1
+	},
+/turf/simulated/floor/tiled/eris/white/techfloor,
+/area/shuttle/whiteship)
+"Ex" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/eris/white/techfloor,
 /area/shuttle/whiteship)
 "EE" = (
 /obj/structure/lattice,
@@ -631,15 +558,6 @@
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/simulated/floor/tiled/eris/white/techfloor,
 /area/shuttle/whiteship)
-"Gj" = (
-/obj/random/junk,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/shuttle/whiteship)
-"Gq" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/random/junk,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/submap/whiteship)
 "Gy" = (
 /obj/machinery/mass_driver{
 	dir = 8;
@@ -652,19 +570,20 @@
 /mob/living/simple_mob/metroid/juvenile/super,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/submap/whiteship)
-"GR" = (
-/obj/machinery/atmospherics/portables_connector{
-	dir = 4
-	},
-/obj/machinery/portable_atmospherics/canister/air/airlock,
-/turf/simulated/floor/tiled/techmaint,
-/area/shuttle/whiteship)
 "GV" = (
 /obj/random/gun/random,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/whiteship)
+"Hi" = (
+/obj/effect/landmark/loot_spawn/low,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/tiled/eris/white/techfloor,
+/area/shuttle/whiteship)
 "Hl" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/yellow{
+	dir = 5
+	},
 /turf/simulated/floor/plating,
 /area/shuttle/whiteship)
 "HM" = (
@@ -676,6 +595,14 @@
 	},
 /turf/simulated/floor/tiled/eris/white/techfloor,
 /area/shuttle/whiteship)
+"HY" = (
+/obj/machinery/door/airlock/glass{
+	name = "Hibernation Pods"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/tiled/techmaint,
+/area/shuttle/whiteship)
 "IB" = (
 /obj/structure/table/standard,
 /obj/machinery/light{
@@ -686,7 +613,7 @@
 /area/shuttle/whiteship)
 "IK" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/eris/steel/techfloor_grid,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/whiteship)
 "Jb" = (
 /turf/simulated/floor/tiled/techmaint,
@@ -698,6 +625,12 @@
 /obj/random/junk,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/whiteship)
+"Jz" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/yellow{
+	dir = 9
+	},
+/turf/simulated/wall/rthull,
+/area/shuttle/whiteship)
 "JU" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
@@ -705,20 +638,21 @@
 /obj/machinery/portable_atmospherics/canister/phoron/cold,
 /turf/simulated/floor/tiled/eris/white/techfloor,
 /area/shuttle/whiteship)
-"Ly" = (
-/obj/machinery/portable_atmospherics/powered/scrubber,
-/turf/simulated/floor/tiled/eris/white/techfloor,
+"KK" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/yellow,
+/turf/simulated/floor/plating,
 /area/shuttle/whiteship)
+"Lg" = (
+/obj/random/junk,
+/turf/simulated/floor/tiled/eris/white/techfloor,
+/area/submap/whiteship)
 "LD" = (
 /obj/random/trash,
 /turf/simulated/floor/tiled/techmaint,
 /area/shuttle/whiteship)
 "LH" = (
-/obj/machinery/atmospherics/unary/engine{
-	dir = 8
-	},
-/turf/template_noop,
-/area/shuttle/whiteship)
+/turf/simulated/floor/tiled/eris/white/techfloor,
+/area/submap/whiteship)
 "LW" = (
 /obj/item/weapon/material/shard{
 	icon_state = "medium"
@@ -757,9 +691,6 @@
 	},
 /turf/simulated/floor/tiled/eris/white/techfloor,
 /area/shuttle/whiteship)
-"MS" = (
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/submap/whiteship)
 "Nc" = (
 /obj/item/stack/rods,
 /turf/template_noop,
@@ -773,10 +704,6 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/shuttle/whiteship)
-"Nl" = (
-/obj/machinery/power/smes/buildable/point_of_interest,
-/turf/simulated/floor/tiled/eris/white/techfloor,
-/area/shuttle/whiteship)
 "Nq" = (
 /obj/structure/table/standard,
 /obj/item/weapon/tank/oxygen,
@@ -787,13 +714,9 @@
 /obj/item/weapon/storage/toolbox/syndicate,
 /turf/simulated/floor/tiled/eris/white/techfloor,
 /area/shuttle/whiteship)
-"NV" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/computer/ship/engines{
-	dir = 2;
-	pixel_y = 0
-	},
-/turf/simulated/floor/tiled/eris/steel/techfloor_grid,
+"QH" = (
+/obj/machinery/power/smes/buildable/point_of_interest,
+/turf/simulated/floor/tiled/eris/white/techfloor,
 /area/shuttle/whiteship)
 "RB" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/yellow{
@@ -827,17 +750,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/whiteship)
-"TR" = (
-/obj/machinery/door/airlock/voidcraft/survival_pod{
-	id_tag = "white_ship_inner"
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/eris/white/techfloor,
-/area/shuttle/whiteship)
 "TS" = (
 /obj/structure/bed/chair{
 	dir = 1
@@ -859,8 +771,11 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/shuttle/whiteship)
 "Vu" = (
-/obj/machinery/computer/shuttle_control/explore/whiteship{
+/obj/structure/salvageable/console_broken_os{
 	dir = 4
+	},
+/obj/item/weapon/paper{
+	info = "Soontm"
 	},
 /turf/simulated/floor/tiled/eris/white/techfloor,
 /area/shuttle/whiteship)
@@ -873,14 +788,6 @@
 "VC" = (
 /mob/living/simple_mob/metroid/juvenile/alpha,
 /turf/simulated/floor/tiled/eris/steel/techfloor_grid,
-/area/shuttle/whiteship)
-"VJ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/random/trash,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/submap/whiteship)
-"Wq" = (
-/turf/template_noop,
 /area/shuttle/whiteship)
 "Wt" = (
 /obj/machinery/light/small{
@@ -898,9 +805,18 @@
 /area/shuttle/whiteship)
 "WO" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/yellow{
-	dir = 8
+	dir = 1
 	},
-/turf/simulated/wall/rthull,
+/turf/simulated/floor/plating,
+/area/shuttle/whiteship)
+"Xs" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/eris/white/techfloor,
 /area/shuttle/whiteship)
 "Xy" = (
 /mob/living/simple_mob/metroid/juvenile/baby,
@@ -908,16 +824,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/whiteship)
-"XZ" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/submap/whiteship)
-"ZF" = (
-/obj/machinery/atmospherics/pipe/manifold/visible{
-	dir = 8
-	},
-/turf/simulated/wall/rthull,
+"XK" = (
+/obj/machinery/atmospherics/portables_connector,
+/obj/machinery/portable_atmospherics/canister/phoron/cold,
+/turf/simulated/floor/tiled/eris/white/techfloor,
 /area/shuttle/whiteship)
+"YV" = (
+/obj/machinery/door/airlock/glass,
+/turf/simulated/floor/tiled/eris/white/techfloor,
+/area/submap/whiteship)
 
 (1,1,1) = {"
 fR
@@ -1061,7 +976,7 @@ wD
 ew
 ew
 EF
-tc
+dw
 Vu
 dw
 EF
@@ -1092,11 +1007,11 @@ wD
 ew
 ew
 VC
-NV
-wc
-dZ
+Ap
+tc
+cT
 en
-AI
+dZ
 sn
 ew
 tK
@@ -1123,13 +1038,13 @@ wD
 wD
 yw
 TS
-IK
-EC
+uD
+nm
 ry
 zR
-IK
-IK
-IK
+uD
+uD
+uD
 ir
 cR
 cS
@@ -1155,18 +1070,18 @@ Vz
 wD
 wD
 ew
-ed
-IK
-lo
-ed
+gC
+uD
+cv
+gC
 es
-IK
-IK
+uD
+uD
 Sw
 ew
 wD
 wD
-Es
+Em
 wD
 wD
 fR
@@ -1223,7 +1138,7 @@ wD
 wD
 wD
 Br
-Es
+Em
 Br
 wD
 wD
@@ -1283,10 +1198,10 @@ GV
 mL
 Br
 ew
-vQ
-vQ
-vQ
-vQ
+IK
+IK
+IK
+IK
 rk
 rk
 rk
@@ -1311,7 +1226,7 @@ fR
 fR
 wD
 co
-vQ
+IK
 gr
 Br
 zY
@@ -1345,7 +1260,7 @@ wD
 Jb
 Jb
 mL
-xl
+HY
 ir
 TC
 us
@@ -1379,7 +1294,7 @@ Md
 mL
 wD
 hM
-vQ
+IK
 wD
 Uq
 Nq
@@ -1407,8 +1322,8 @@ fR
 fR
 fR
 wD
-GR
-GR
+go
+go
 wD
 ew
 rk
@@ -1439,11 +1354,11 @@ fR
 fR
 fR
 wD
-hh
-tS
+lW
+Cr
 wD
 ew
-vQ
+IK
 wD
 wD
 wD
@@ -1468,24 +1383,24 @@ fR
 fR
 fR
 fR
-oB
+fR
 wD
-ar
-ZF
-tS
+aJ
+eG
+Cr
 wD
-hU
-vQ
-Gj
-vQ
+ew
+IK
+fH
+IK
 tg
 eV
-vQ
+IK
 Xy
 wx
 rk
 tb
-Nl
+QH
 wD
 wD
 fR
@@ -1501,22 +1416,22 @@ fR
 fR
 fR
 fR
-Ax
-yR
-vv
-zW
-TR
-eZ
-eZ
+yA
+fw
+fw
+fw
+yA
+Ex
+Ex
 MK
 va
-eZ
-eZ
-eZ
-xm
-xm
-eZ
-hF
+Ex
+Ex
+Ex
+Xs
+Xs
+Ex
+fr
 wD
 wD
 fR
@@ -1543,7 +1458,7 @@ wD
 wD
 wD
 Br
-Es
+Em
 Br
 wD
 wD
@@ -1569,19 +1484,19 @@ fR
 fR
 wD
 wD
-Hl
-qq
-WO
+tf
+xq
+lx
 JU
 bI
 ew
 ew
 ew
 bI
-sp
-WO
-fh
+XK
+lx
 Hl
+tf
 wD
 wD
 fR
@@ -1598,25 +1513,25 @@ fR
 fR
 fR
 fR
-gY
-WO
+ze
+lx
 RB
 RB
-pi
-aB
+KK
+kz
 JU
 vf
 ir
-vQ
+IK
 Mi
 ew
-sp
-nO
-fy
-RB
-RB
+XK
+Jz
 WO
-BA
+RB
+RB
+lx
+uA
 fR
 fR
 fR
@@ -1638,7 +1553,7 @@ zt
 wD
 wD
 ew
-vQ
+IK
 od
 qP
 ew
@@ -1662,25 +1577,25 @@ fR
 fR
 fR
 wD
-LH
-LH
-LH
-LH
-LH
-Wq
+vQ
+vQ
+vQ
+vQ
+vQ
+hc
 wD
-Ly
+eY
 Mi
 rk
 ir
 ew
 wD
-Wq
-LH
-LH
-LH
-LH
-LH
+hc
+vQ
+vQ
+vQ
+vQ
+vQ
 wD
 fR
 fR
@@ -1735,7 +1650,7 @@ fR
 fR
 wD
 wD
-Es
+Em
 wD
 wD
 fR
@@ -1799,7 +1714,7 @@ fR
 fR
 wD
 wD
-Es
+Em
 wD
 wD
 fR
@@ -1927,7 +1842,7 @@ fR
 fR
 wD
 ew
-vQ
+IK
 At
 wD
 fR
@@ -1992,7 +1907,7 @@ EE
 wD
 ew
 eN
-dK
+Hi
 wD
 fR
 fR
@@ -2023,7 +1938,7 @@ fR
 fR
 wD
 At
-vQ
+IK
 ir
 wD
 fR
@@ -2119,7 +2034,7 @@ fR
 fR
 wD
 wD
-yl
+Es
 wD
 wD
 EE
@@ -2248,7 +2163,7 @@ FB
 EE
 gJ
 gJ
-zh
+YV
 gJ
 gJ
 fR
@@ -2279,9 +2194,9 @@ EE
 fR
 fR
 gJ
-kz
-kz
-kz
+LH
+LH
+LH
 gJ
 fR
 fR
@@ -2311,9 +2226,9 @@ fR
 fR
 fR
 gJ
-cW
-XZ
-uD
+fu
+qz
+vc
 gJ
 fR
 fR
@@ -2343,9 +2258,9 @@ fR
 fR
 fR
 gJ
-cW
-VJ
-cW
+fu
+lo
+fu
 gJ
 fR
 fR
@@ -2377,7 +2292,7 @@ fR
 gJ
 lR
 Ma
-uD
+vc
 gJ
 fR
 fR
@@ -2407,9 +2322,9 @@ fR
 fR
 fR
 gJ
-cW
-Gq
-kz
+fu
+mI
+LH
 gJ
 fR
 fR
@@ -2439,8 +2354,8 @@ fR
 fR
 fR
 gJ
-kz
-XZ
+LH
+qz
 of
 gJ
 fR
@@ -2471,9 +2386,9 @@ fR
 fR
 fR
 gJ
-uD
+vc
 GA
-ae
+Lg
 gJ
 fR
 fR
@@ -2503,9 +2418,9 @@ fR
 fR
 fR
 gJ
-kz
-MS
-uD
+LH
+sj
+vc
 gJ
 fR
 fR
@@ -2535,9 +2450,9 @@ fR
 fR
 fR
 gJ
-kz
-kz
-kz
+LH
+LH
+LH
 gJ
 fR
 fR
@@ -2568,7 +2483,7 @@ fR
 fR
 gJ
 gJ
-zh
+YV
 gJ
 gJ
 fR

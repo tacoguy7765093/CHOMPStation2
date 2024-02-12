@@ -430,12 +430,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
 /area/submap/asteroid4)
-"Cd" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/reagent_dispensers/fueltank,
-/obj/effect/decal/cleanable/liquid_fuel,
-/turf/simulated/floor/tiled/white,
-/area/submap/asteroid4)
 "Da" = (
 /obj/machinery/light{
 	layer = 3
@@ -632,7 +626,7 @@
 	name = "Server Base";
 	oxygen = 0;
 	temperature = 80;
-	phoron = 100
+	phoron = 400
 	},
 /area/submap/asteroid4)
 "MF" = (
@@ -813,7 +807,7 @@
 	name = "Server Base";
 	oxygen = 0;
 	temperature = 80;
-	phoron = 100
+	phoron = 400
 	},
 /area/submap/asteroid4)
 "Yl" = (
@@ -2246,7 +2240,7 @@ qF
 qF
 gw
 MK
-Cd
+MK
 nn
 xT
 xT

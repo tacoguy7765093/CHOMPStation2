@@ -271,11 +271,11 @@ Less important
 	mappath = "modular_chomp/maps/overmap/space_pois/wayhome_30x30.dmm"
 	block_size = 30
 */
+
 /datum/map_template/dynamic_overmap/whiteship_55x30
 	name = "White Ship"
 	mappath = "modular_chomp/maps/overmap/space_pois/whiteship_55x30.dmm"
 	block_size = 55
-
 /datum/map_template/dynamic_overmap/wizardcrash_20x35
 	name = "Crashed Anomalous Ship "
 	mappath = "modular_chomp/maps/overmap/space_pois/wizardcrash_20x35.dmm"

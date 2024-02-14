@@ -19,14 +19,20 @@
 /turf/simulated/floor/plating,
 /area/submap/spacebar)
 "al" = (
-/turf/simulated/shuttle/wall,
-/turf/space,
+/obj/machinery/power/apc/hyper{
+	dir = 8;
+	pixel_y = 0;
+	pixel_x = -24
+	},
+/turf/simulated/floor/tiled/asteroid_steel{
+	temperature = 295.15
+	},
 /area/submap/spacebar)
 "am" = (
 /turf/simulated/wall,
 /area/submap/spacebar)
 "an" = (
-/turf/simulated/shuttle/wall,
+/turf/simulated/wall/thull,
 /area/submap/spacebar)
 "ao" = (
 /obj/structure/bed/chair/bay/comfy/blue{
@@ -1211,7 +1217,7 @@ Bv
 aJ
 aJ
 ag
-al
+an
 an
 an
 bs
@@ -1295,7 +1301,7 @@ aJ
 ag
 ag
 ag
-al
+an
 an
 an
 bs
@@ -1391,7 +1397,7 @@ ag
 ag
 ag
 ag
-al
+an
 an
 an
 bs
@@ -1475,7 +1481,7 @@ aJ
 ag
 ag
 ag
-al
+an
 an
 an
 bs
@@ -1601,7 +1607,7 @@ aX
 aY
 jM
 be
-aZ
+al
 aZ
 aJ
 IJ

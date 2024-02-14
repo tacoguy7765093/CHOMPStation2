@@ -60,6 +60,7 @@ Less important
 #include "wayhome_30x30.dmm"
 #include "whiteship_55x30.dmm"
 #include "wizardcrash_20x35.dmm"
+#include "spaceseveneleven_45x45.dmm"
 #endif
 
 // Vars (excluding mappath) are passed to the overmap object after scanning.
@@ -89,11 +90,13 @@ Less important
 /datum/map_template/dynamic_overmap/abandonedzoo_20x20
 	name = "Abandoned Zoo"
 	mappath = "modular_chomp/maps/overmap/space_pois/abandonedzoo_50x50.dmm"
+	scanner_desc = "Bio-Experiment labratory of unknown use, last response time ^@# years ago."
 	block_size = 50
 
 /datum/map_template/dynamic_overmap/asteroid1_60x60
 	name = "Asteroid"
 	mappath = "modular_chomp/maps/overmap/space_pois/asteroid1_60x60.dmm"
+	scanner_desc = "Large asteroid rich in minerals, faint GPS signal detected."
 	poi_icon = "asteroid1"
 	active_icon = "asteroid1_g"
 	block_size = 60
@@ -101,6 +104,7 @@ Less important
 /datum/map_template/dynamic_overmap/asteroid2_60x60
 	name = "Asteroid"
 	mappath = "modular_chomp/maps/overmap/space_pois/asteroid2_60x60.dmm"
+	scanner_desc = "Frozen asteroids and comets. Signs of debris detected."
 	poi_icon = "asteroid2"
 	active_icon = "asteroid2_g"
 	block_size = 60
@@ -108,6 +112,7 @@ Less important
 /datum/map_template/dynamic_overmap/asteroid3_60x60
 	name = "Asteroid"
 	mappath = "modular_chomp/maps/overmap/space_pois/asteroid3_60x60.dmm"
+	scanner_desc = "Large asteroid with strange exotic matter readings, high level of danger detected."
 	poi_icon = "asteroid3"
 	active_icon = "asteroid3_g"
 	block_size = 60
@@ -115,6 +120,7 @@ Less important
 /datum/map_template/dynamic_overmap/asteroid4_60x60
 	name = "Asteroid"
 	mappath = "modular_chomp/maps/overmap/space_pois/asteroid4_60x60.dmm"
+	scanner_desc = "Large asteroid rich in materials. Asteroid scans return that it is hollow."
 	poi_icon = "asteroid2"
 	active_icon = "asteroid2_g"
 	block_size = 60
@@ -129,16 +135,19 @@ Less important
 /datum/map_template/dynamic_overmap/blowntcommsat_53x56
 	name = "Destroyed T-Comms Sat"
 	mappath = "modular_chomp/maps/overmap/space_pois/blowntcommsat_53x56.dmm"
+	scanner_desc = "Auxillary telecommunications station in disrepair."
 	block_size = 56
 
 /datum/map_template/dynamic_overmap/clownmime_28x20
 	name = "HONKCRASHEDSHUTTLEHONK"
 	mappath = "modular_chomp/maps/overmap/space_pois/clownmime_28x20.dmm"
+	scanner_desc = "HONKHONKHONKHONKHONKHONKHONKHONKHONKHONKHONKHONKHONKHONKHONKHONKHONKHONKHONKHONKHONKHONKHONKHONKHONKHONKHONKHONKHONKHONKHONKHONKHONKHONK"
 	block_size = 28
 
 /datum/map_template/dynamic_overmap/debris1_60x60
 	name = "Debris"
 	mappath = "modular_chomp/maps/overmap/space_pois/debris1_60x60.dmm"
+	scanner_desc = "Metllic debris, high amounts of local fauna detected."
 	block_size = 60
 /* Mixed all 3 of debris into debris1
 /datum/map_template/dynamic_overmap/debris2_20x20
@@ -154,11 +163,13 @@ Less important
 /datum/map_template/dynamic_overmap/deepstorage_85x67
 	name = "Deep Storage Facility"
 	mappath = "modular_chomp/maps/overmap/space_pois/deepstorage_85x67.dmm"
+	scanner_desc = "Deep hermit's bunker for long term storage and survival, HIGH AMOUNTS OF FAUNA DETECTED."
 	block_size = 85
 
 /datum/map_template/dynamic_overmap/derelict1_100x100
 	name = "Derelict Field"
 	mappath = "modular_chomp/maps/overmap/space_pois/derelict1_100x100.dmm"
+	scanner_desc = "Various derelicts and debris. Contains fauna."
 	block_size = 100
 /*
 /datum/map_template/dynamic_overmap/derelict2_20x20
@@ -184,11 +195,13 @@ Less important
 /datum/map_template/dynamic_overmap/dj_31x28
 	name = "DJ Grooves"
 	mappath = "modular_chomp/maps/overmap/space_pois/dj_31x28.dmm"
+	scanner_desc = "Unauthorized non-NT operated telecomunications station."
 	block_size = 31
 
 /datum/map_template/dynamic_overmap/druglab_32x32
 	name = "Suspicious Asteroids"
 	mappath = "modular_chomp/maps/overmap/space_pois/druglab_32x32.dmm"
+	scanner_desc = "Scans indicate various asteroids hollowed out, human activity detected."
 	block_size = 32
 /*
 /datum/map_template/dynamic_overmap/emptyshell_17x15
@@ -204,6 +217,7 @@ Less important
 /datum/map_template/dynamic_overmap/golemtarget_30x30 //Leaving this one as is, kinda funny
 	name = "WARNING: HIGH GRAVITATIONAL FIELD DETECTED"
 	mappath = "modular_chomp/maps/overmap/space_pois/golemtarget_30x30.dmm"
+	scanner_desc = "HIGH GRAVITATIONAL FIELD DETECTED, HIGH AMOUNTS OF HAWKING RADIATION DETECTED"
 	block_size = 30
 
 /datum/map_template/dynamic_overmap/intactemptyship_30x25
@@ -219,16 +233,19 @@ Less important
 /datum/map_template/dynamic_overmap/oldstation_80x45
 	name = "Charlie Station"
 	mappath = "modular_chomp/maps/overmap/space_pois/oldstation_80x45.dmm"
+	scanner_desc = "Abandoned NT derelict station, \[REDACTED]"
 	block_size = 80
 
 /datum/map_template/dynamic_overmap/onehalf_60x20.dmm
 	name = "Drone Factory"
 	mappath = "modular_chomp/maps/overmap/space_pois/onehalf_60x20.dmm"
+	scanner_desc = "Unknown station, high hull damage detected."
 	block_size = 60
 
 /datum/map_template/dynamic_overmap/spacebar_40x40
 	name = "Space Bar Dome"
 	mappath = "modular_chomp/maps/overmap/space_pois/spacebar_40x40.dmm"
+	scanner_desc = "Beacon signal detected: COME ON DOWN TO THE ROBUST DONE, DRINKS, GAMES, AND MORE, FREE PARKING"
 	block_size = 40
 
 /datum/map_template/dynamic_overmap/starhuntersarena_70x70
@@ -249,16 +266,19 @@ Less important
 /datum/map_template/dynamic_overmap/syndiedepot_57x49
 	name = "Unknown Depot"
 	mappath = "modular_chomp/maps/overmap/space_pois/syndiedepot_57x49.dmm"
+	scanner_desc = "Mercernary owned outpost, HEAVILY armed mercs detected."
 	block_size = 57
 
 /datum/map_template/dynamic_overmap/turretedoutpost_23x19
 	name = "Guarded Facility"
 	mappath = "modular_chomp/maps/overmap/space_pois/turretedoutpost_23x19.dmm"
+	scanner_desc = "Mervenary owned outpost, armor piercing turrets and arms detected."
 	block_size = 23
 
 /datum/map_template/dynamic_overmap/ussp_84x90
 	name = "Unknown Station"
 	mappath = "modular_chomp/maps/overmap/space_pois/ussp_84x90.dmm"
+	scanner_desc = "Destroyed station, cause unknown."
 	block_size = 90
 
 /datum/map_template/dynamic_overmap/ussptele_21x12
@@ -275,8 +295,16 @@ Less important
 /datum/map_template/dynamic_overmap/whiteship_55x30
 	name = "White Ship"
 	mappath = "modular_chomp/maps/overmap/space_pois/whiteship_55x30.dmm"
+	scanner_desc = "Derelict ship, high energy lifeforms detected within."
 	block_size = 55
 /datum/map_template/dynamic_overmap/wizardcrash_20x35
 	name = "Crashed Anomalous Ship "
 	mappath = "modular_chomp/maps/overmap/space_pois/wizardcrash_20x35.dmm"
+	scanner_desc = "A ship propelled by unknown forced, need more information."
 	block_size = 35
+
+/datum/map_template/dynamic_overmap/spaceseveneleven_45x45
+	name = "Gas Station?"
+	mappath = "modular_chomp/maps/overmap/space_pois/spaceseveneleven_45x45.dmm"
+	scanner_desc = "Third-Party refueling station, public use."
+	block_size = 45

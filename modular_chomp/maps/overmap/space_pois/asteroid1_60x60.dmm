@@ -50,6 +50,10 @@
 /obj/item/weapon/ore/hydrogen,
 /turf/simulated/mineral/floor/vacuum,
 /area/submap/asteroid1)
+"C" = (
+/obj/item/device/gps/mining/on,
+/turf/simulated/mineral/floor/vacuum,
+/area/submap/asteroid1)
 "I" = (
 /obj/item/weapon/ore/verdantium,
 /turf/simulated/mineral/floor/vacuum,
@@ -1727,7 +1731,7 @@ t
 o
 g
 u
-Z
+C
 Z
 c
 c

@@ -45,7 +45,7 @@
 	if(!ishuman(M) && !isrobot(M))	//Are we even humanoid or a borg?
 		return
 	//Moving some vars here for both borgs and carbons to use
-	var/bones_amount = rand(2,4) //some random variety in amount of bones left
+	var/bones_amount = rand(4,7) //some random variety in amount of bones left //MULCHedit MOAR BONES
 	if(isrobot(M)) //If borg, handle differently
 		//var/mob/living/silicon/robot/R = M // Not Needed at the moment. Uncomment if you need borg stuff
 
